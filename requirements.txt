@@ -8,3 +8,4 @@ plotly
 joblib
 kafka-python
 streamlit-autorefresh
+gdown

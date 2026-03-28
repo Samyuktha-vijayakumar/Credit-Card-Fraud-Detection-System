@@ -3,6 +3,8 @@ import pandas as pd
 import joblib
 import plotly.express as px
 import plotly.graph_objects as go
+import gdown
+import os
 
 # --------------------------------------------------
 # Page Configuration
@@ -26,6 +28,11 @@ Model:
 
 @st.cache_resource
 def load_model():
+    os.makedirs("models", exist_ok=True)
+    model_path = "models/fraud_pipeline.pkl"
+    if not os.path.exists("models/fraud_pipeline.pkl"):
+        url = "https://drive.google.com/uc?id=16jiwOQ3EFYnageWiS64WIIoVzkUUjgbS"
+        gdown.download(url, "models/fraud_pipeline.pkl", quiet=False)
     model = joblib.load("models/fraud_pipeline.pkl")
     return model
 
