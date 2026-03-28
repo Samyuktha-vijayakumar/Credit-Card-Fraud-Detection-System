@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+imblearn
+plotly
+joblib
+kafka-python
+streamlit-autorefresh
