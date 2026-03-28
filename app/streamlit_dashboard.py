@@ -32,8 +32,8 @@ def load_model():
     model_path = "models/fraud_pipeline.pkl"
     if not os.path.exists("models/fraud_pipeline.pkl"):
         url = "https://drive.google.com/uc?id=16jiwOQ3EFYnageWiS64WIIoVzkUUjgbS"
-        gdown.download(url, "models/fraud_pipeline.pkl", quiet=False)
-    model = joblib.load("models/fraud_pipeline.pkl")
+        gdown.download(url, model_path, quiet=False)
+    model = joblib.load(model_path)
     return model
 
 model = load_model()
