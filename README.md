@@ -1,23 +1,23 @@
-# 💳 Credit Card Fraud Detection System
+# Credit Card Fraud Detection System
 
-## 📌 Overview
+## Overview
 
 This project is a **Machine Learning-based Credit Card Fraud Detection System** that identifies fraudulent transactions in real-time.
 It uses advanced data preprocessing and classification models to distinguish between legitimate and fraudulent transactions.
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 🔍 Detects fraudulent transactions with high accuracy
-* ⚡ Real-time prediction using trained ML model
-* 📊 Interactive dashboard built with Streamlit
-* 📁 Upload CSV file for batch predictions
-* 🧠 Uses trained pipeline model for preprocessing + prediction
+*  Detects fraudulent transactions with high accuracy
+*  Real-time prediction using trained ML model
+* Interactive dashboard built with Streamlit
+*  Upload CSV file for batch predictions
+*  Uses trained pipeline model for preprocessing + prediction
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Programming Language:** Python
 * **Libraries:**
@@ -33,7 +33,7 @@ It uses advanced data preprocessing and classification models to distinguish bet
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 credit-card-fraud-detection/
@@ -55,16 +55,16 @@ credit-card-fraud-detection/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Clone the repository
+### 1️ Clone the repository
 
 ```
 git clone https://github.com/your-username/Credit-Card-Fraud-Detection-System.git
 cd Credit-Card-Fraud-Detection-System
 ```
 
-### 2️⃣ Install dependencies
+### 2️ Install dependencies
 
 ```
 pip install -r requirements.txt
@@ -102,7 +102,7 @@ You can download it from:
 
 ---
 
-## 🔄 Workflow
+##  Workflow
 
 1. Upload transaction data (CSV)
 2. Preprocess data
@@ -112,16 +112,16 @@ You can download it from:
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
-* 🔥 Real-time streaming using Kafka
-* 📈 Model performance dashboard
-* 🌍 API integration using FastAPI
-* 🔐 Enhanced fraud detection with deep learning
+*  Real-time streaming using Kafka
+*  Model performance dashboard
+*  API integration using FastAPI
+*  Enhanced fraud detection with deep learning
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Samyuktha Vijayakumar**
 
@@ -129,7 +129,7 @@ You can download it from:
 
 
 
-## ⭐ Acknowledgements
+##  Acknowledgements
 
 * Kaggle for dataset
 * Open-source ML community
