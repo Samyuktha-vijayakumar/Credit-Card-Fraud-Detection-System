@@ -80,7 +80,7 @@ streamlit run app/streamlit_dashboard.py
 
   Live Demo
 
- https://credit-card-fraud-detection-system-e3ku.onrender.com
+ https://creditcardfrauddetectionsystem-kpxeyguakhwexaub2q9yfg.streamlit.app
 
 ---
 
