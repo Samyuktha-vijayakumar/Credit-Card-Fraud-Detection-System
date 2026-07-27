@@ -55,29 +55,6 @@ credit-card-fraud-detection/
 
 ---
 
-##  Installation & Setup
-
-### 1️ Clone the repository
-
-```
-git clone https://github.com/your-username/Credit-Card-Fraud-Detection-System.git
-cd Credit-Card-Fraud-Detection-System
-```
-
-### 2️ Install dependencies
-
-```
-pip install -r requirements.txt
-```
-
- Run the application
-
-```
-streamlit run app/streamlit_dashboard.py
-```
-
----
-
   Live Demo
 
  https://creditcardfrauddetectionsystem-kpxeyguakhwexaub2q9yfg.streamlit.app
